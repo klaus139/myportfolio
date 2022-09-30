@@ -2,7 +2,7 @@ import React, {useState, useEffect } from "react";
 import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
-import '/Users/decagon/Desktop/myportfolio/client/src/portfolioContainer/Resume/Resume.css';
+import "./Resume.css";
 
 const Resume = (props) => {
   /* STATES */

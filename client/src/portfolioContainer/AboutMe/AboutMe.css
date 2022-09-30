@@ -16,7 +16,7 @@
 }
 .about-me-profile{
     width: 50%;
-    background-image: url(/Users/decagon/Desktop/myportfolio/client/src/assets/AboutMe/Screenshot_20220920-130351_Instagram.jpg);
+    background-image: url(./../../assets/AboutMe/Screenshot_20220920-130351_Instagram.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

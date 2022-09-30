@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import Typical from "react-typical";
-import imgBack from "/Users/decagon/Desktop/myportfolio/client/src/assets/images/mailz.jpeg"
-import load1 from "/Users/decagon/Desktop/myportfolio/client/src/assets/images/load2.gif"
+import imgBack from "../../assets/images/mailz.jpeg";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";

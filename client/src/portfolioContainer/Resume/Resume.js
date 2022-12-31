@@ -55,10 +55,10 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
+    { skill: "TypeScript", ratingPercentage: 85 },
     { skill: "Express JS", ratingPercentage: 89 },
     { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
+    { skill: "Mongo Db", ratingPercentage: 92 },
     { skill: "Python", ratingPercentage: 80 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
@@ -66,28 +66,46 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
-      title: "Personal Portfolio Website",
-      duration: { fromDate: "2022", toDate: "2021" },
+      title: "Ecommerce Website https://www.klamark.adaptable.app",
+      duration: { fromDate: "2022"},
+      description:
+        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+      subHeading:
+        "Technologies Used: Next Js, stripe, sanity.io",
+    },
+    {
+      title: "Goal App https://www.goalapp.adaptable.app",
+      duration: { fromDate: "2022", },
+      description:
+        "A simple MERN application that performs CRUD operations",
+      subHeading:
+        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS.",
+    },
+    {
+      title: "Simple Chat App https://www.klaus-chat-app.adaptable.app",
+      duration: { fromDate: "2022", },
+      description:
+        "A simple chat app that allows users to send and receive messages",
+      subHeading:
+        "Technologies Used: Mongo DB, Epress Js, React Js, socket.io, Node JS.",
+    },
+    
+    {
+      title: "Personal Portfolio Website hosted at https://www.nicholasportfolio.adaptable.app",
+      duration: { fromDate: "2022", toDate: "2022"},
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap, Javascript, HTML, CSS",
     },
     {
       title: "Content management system",
-      duration: { fromDate: "2021", toDate: "2022" },
+      duration: { fromDate: "2021" },
       description:
         "A Content management system to manage the content of the website.",
       subHeading:
         "Technologies Used:  Pyhton, Django, Javascript, HTML, CSS, Bootstrap",
     },
-    {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
-      subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
-    },
+    
   ];
 
   const resumeDetails = [
@@ -116,9 +134,32 @@ const Resume = (props) => {
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
+      <div className="experience-container">
         <ResumeHeading
-          heading={"Decagon Institute"}
-          subHeading={"FULL STACK DEVELOPER"}
+          heading={"Outreachy"}
+          subHeading={"Open source contributor"}
+          fromDate={"2022"}
+          toDate={"2022"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Contribiuted in Open source projects for companies like Oppia.io and publiclab.org
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            refactored obselete code base to standard 
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Translated 316 cards of mathematical expressions for oppia.io from English to Nigerian Pidgin
+          </span>
+          <br />
+        </div>
+      </div>
+        <ResumeHeading
+          heading={"Decagon"}
+          subHeading={"Associate Software Developer"}
           fromDate={"2022"}
           toDate={"Present"}
         />
@@ -129,7 +170,7 @@ const Resume = (props) => {
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - developed a content management system that allows users to build webpages and blogs . .
+            Worked with a team to built the swift riders project
           </span>
           <br />
           <span className="resume-description-text">
@@ -140,6 +181,34 @@ const Resume = (props) => {
           <span className="resume-description-text">
             - I stretch my mental capacity to develope UI as per the given
             designs.
+          </span>
+          <br />
+        </div>
+      </div>
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Ingressive 4 good ZuriTeam"}
+          subHeading={"Software devloper Intern"}
+          fromDate={"2022"}
+          toDate={"2022"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Learnt the fundamentals of web development and python programming.
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            worked with a team that built a content management system called the optimus project
+          </span>
+          <br />
+          <span className="resume-description-text">
+            --integrated backend functionality for a blog model using python django
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - performed unit and integration test.
+            
           </span>
           <br />
         </div>

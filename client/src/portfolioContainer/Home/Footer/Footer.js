@@ -7,6 +7,7 @@ export default function Footer() {
         <div className='footer-container'>
             <div className='footer-parent'>
                <img src={require ('../../../assets/Home/shape-bg.png') } alt="shape" />
+               <p>klaus made it</p>
             </div>
 
         </div>
